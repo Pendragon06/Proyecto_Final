@@ -11,6 +11,8 @@ const app = express();
 
 app.use('/article', articleApi);
 
+app.use('/getimage' , express.static('./uploads'));
+
 app.listen(3000, ()=> {
     console.log('Servidor esta en el puerto 3000 ejecutando');
 })
