@@ -17,7 +17,7 @@ const Article = mongoose.model('Article' , {
     contenido: {
         type: String
     },
-    imagen: {
+    image: {
         type: String
     },
     tags: {
