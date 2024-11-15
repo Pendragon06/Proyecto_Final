@@ -11,6 +11,8 @@
   "dependencies": {
     "expre": "^0.1.1",
     "express": "^4.21.1",
-    "mon": "^0.0.8"
+    "mon": "^0.0.8",
+    "mongoose": "^8.8.1",
+    "multer": "^1.4.5-lts.1"
   }
 }
